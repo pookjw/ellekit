@@ -5,8 +5,8 @@
 @import Foundation;
 
 #if !TARGET_OS_OSX
-typedef void * xpc_object_t;
-typedef void * xpc_connection_t;
+//typedef void * xpc_object_t;
+//typedef void * xpc_connection_t;
 
 _Nullable xpc_connection_t xpc_connection_create_mach_service(const char * _Nonnull name,
     dispatch_queue_t _Nullable targetq, uint64_t flags);
